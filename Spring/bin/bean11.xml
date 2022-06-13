@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="addressValue" class="assignment1.Address">
+
+      <property name="street" value="yadhagiri theater"></property>
+      <property name="city" value="hyderbad"></property>
+      <property name="state" value="TS"></property>
+      <property name="zip" value="500059"></property>
+      <property name="country" value="INDIA"></property>
+</bean>
+
+
+<bean id="data" class="assignment1.Customer">
+      <property name="CustomerName" value="MounikaPatel"/>
+      <property name="CustomerId" value="96"/>
+      <property name="CustomerContact" value="7032468411"/>
+      <property name="CustomerAddress" value="hyderbad"/>
+      
+</bean>
+
+
+
+</beans>
